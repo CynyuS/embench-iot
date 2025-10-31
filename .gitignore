@@ -1,1 +1,4 @@
 /llvm-pass-skeleton/build/
+/test-suite-build/
+/embench-iot/bd/
+/embench-iot/logs/
