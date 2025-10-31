@@ -1,0 +1,29 @@
+Benchmark           Speed
+---------           -----
+aha-mont64              2
+crc32                   2
+cubic                   2
+edn                     3
+huffbench               2
+matmult-int             3
+md5sum                  2
+minver                  2
+nbody                   2
+nettle-aes              2
+nettle-sha256           2
+nsichneu                2
+picojpeg                3
+primecount              4
+qrduino                 4
+sglib-combined          3
+slre                    3
+st                      2
+statemate               2
+tarfind                 2
+ud                      2
+wikisort                2
+---------           -----
+Geometric mean          2
+Geometric SD            1.32
+Geometric range  1.2929495832885998
+All benchmarks run successfully

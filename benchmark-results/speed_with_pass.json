@@ -1,0 +1,29 @@
+{  "speed results" :
+  { "detailed speed results" :
+    { "aha-mont64" : 2,
+      "crc32" : 2,
+      "cubic" : 2,
+      "edn" : 3,
+      "huffbench" : 2,
+      "matmult-int" : 3,
+      "md5sum" : 2,
+      "minver" : 2,
+      "nbody" : 1,
+      "nettle-aes" : 2,
+      "nettle-sha256" : 2,
+      "nsichneu" : 2,
+      "picojpeg" : 4,
+      "primecount" : 4,
+      "qrduino" : 4,
+      "sglib-combined" : 3,
+      "slre" : 3,
+      "st" : 2,
+      "statemate" : 2,
+      "tarfind" : 2,
+      "ud" : 2,
+      "wikisort" : 2
+    },
+    "speed geometric mean" : 2,
+    "speed geometric standard deviation" : 1.34
+  }
+}

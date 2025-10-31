@@ -1,0 +1,38 @@
+================================================================================
+BENCHMARK COMPARISON: Baseline (-O0) vs With Pass (-O0 + pass)
+================================================================================
+
+Benchmark            Baseline (ms)   With Pass (ms)  Speedup    % Change
+--------------------------------------------------------------------------------
+aha-mont64           2.00            2.00            1.000        +0.00%
+crc32                3.00            2.00            1.500       -33.33%
+cubic                2.00            2.00            1.000        +0.00%
+edn                  3.00            3.00            1.000        +0.00%
+huffbench            2.00            2.00            1.000        +0.00%
+matmult-int          3.00            3.00            1.000        +0.00%
+md5sum               2.00            2.00            1.000        +0.00%
+minver               2.00            2.00            1.000        +0.00%
+nbody                2.00            1.00            2.000       -50.00%
+nettle-aes           2.00            2.00            1.000        +0.00%
+nettle-sha256        2.00            2.00            1.000        +0.00%
+nsichneu             2.00            2.00            1.000        +0.00%
+picojpeg             4.00            4.00            1.000        +0.00%
+primecount           4.00            4.00            1.000        +0.00%
+qrduino              4.00            4.00            1.000        +0.00%
+sglib-combined       3.00            3.00            1.000        +0.00%
+slre                 3.00            3.00            1.000        +0.00%
+st                   2.00            2.00            1.000        +0.00%
+statemate            2.00            2.00            1.000        +0.00%
+tarfind              2.00            2.00            1.000        +0.00%
+ud                   2.00            2.00            1.000        +0.00%
+wikisort             2.00            2.00            1.000        +0.00%
+--------------------------------------------------------------------------------
+
+Geometric Mean Speedup: 1.051x
+Arithmetic Mean Speedup: 1.068x
+
+Pass IMPROVED performance by 5.12%
+
+Raw results saved in:
+  Baseline: speed_baseline.json
+  With Pass: speed_with_pass.json
